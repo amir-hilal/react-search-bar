@@ -1,0 +1,55 @@
+/* ── Reset & base ───────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default list styles globally */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure mark element keeps readable contrast */
+mark {
+  background-color: #f3d34a;
+  color: #111;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Remove default search input "×" on webkit */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Focus ring for keyboard users */
+:focus-visible {
+  outline: 2px solid #111;
+  outline-offset: 2px;
+}

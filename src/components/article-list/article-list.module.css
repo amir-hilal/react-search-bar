@@ -1,0 +1,11 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.empty {
+  font-size: 1.125rem;
+  color: #888;
+  padding: 32px 0;
+}
