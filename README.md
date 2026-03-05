@@ -3,16 +3,19 @@
 A client-side article search page built with **React 19**, **TypeScript**, and **Vite**.
 Features real-time filtering, phrase-based tokenised highlighting, debounced input, and a two-column layout — with no external UI libraries.
 
+**Live demo:** [https://react-search-bar-lemon.vercel.app](https://react-search-bar-lemon.vercel.app)
+
 ---
 
-## Setup
+## Quick start
 
 ```bash
+git clone https://github.com/amir-hilal/react-search-bar.git && cd react-search-bar
 npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
+Open [http://localhost:5173](http://localhost:5173), or visit the hosted version at [https://react-search-bar-lemon.vercel.app](https://react-search-bar-lemon.vercel.app).
 
 ---
 
